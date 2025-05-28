@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 #define MAX 1000
+#include <stdin.h>
 
 int contarVogais(char *str){
 int cont;
