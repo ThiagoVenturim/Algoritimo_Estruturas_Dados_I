@@ -1,29 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
-int atenum(int *vetor, int num, int i ){
+int imprimir(int num, int cont){
 if(num==0){
     return 0;
 }else{
-    *vetor = i;	
-    printf("%d ", *vetor);
-    return atenum(vetor + 1, num - 1, i + 1);
+    printf("%d ", cont-num);
+     return  imprimir(num - 1, cont); 
+}
 }
 
-}
 int main(){
-    int num;
-    int *vetor;
-    printf("Digite um numero inteiro positvo: ");
-    scanf("%d", &num);
-    if (num <= 0) {
-        printf("Numero invalido. Deve ser um inteiro positivo.\n");
-        return 1;
-    }
-    vetor = (int *)malloc(num * sizeof(int));
-    if(vetor == NULL) {
-        printf("Erro ao alocar memoria.\n");
-        return 1;
-    }  
-    atenum(vetor, num, 1);
-    return 0;
+int num;
+printf("Digite um numero: ");
+scanf("%d", &num);
+if(num < 0){
+    printf("Numero invalido!\n");
+    return 1;
+}
+imprimir(num, num+1);
+return 0;
 }

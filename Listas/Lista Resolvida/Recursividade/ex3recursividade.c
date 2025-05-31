@@ -13,7 +13,7 @@ int preecher(int *vetor, int tam){
 }
 }
 
-int encontrar(int *vetor, int tam, int num, int *poss;){
+int encontrar(int *vetor, int tam, int num, int *poss){
 if(tam == 0){
     return 0;
 }else{

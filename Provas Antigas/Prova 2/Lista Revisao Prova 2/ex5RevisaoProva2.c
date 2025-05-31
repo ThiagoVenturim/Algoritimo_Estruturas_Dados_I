@@ -5,6 +5,8 @@ caracteres e imprima a string invertida. A função strrev não deve ser utiliza
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+
 #define MAX 100
 void imprimir_invertida(char *str, int tamanho){
     if(tamanho <0 ){
@@ -25,6 +27,7 @@ int main(){
     }
     printf("Digite uma string (ate 100 caracteres): ");
     fgets(str, MAX, stdin);
+    tamanho = strlen(str) ;
     printf("Tamanho da string: %d\n", tamanho);
     str = (char *)realloc(str, tamanho*sizeof(char));
     if( str == NULL){
