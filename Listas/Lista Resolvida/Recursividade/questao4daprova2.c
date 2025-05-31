@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 float media(int *matriz, int tamanho) {
     float soma =0, media;
     for(int i=0; i<tamanho*tamanho; i++) {
