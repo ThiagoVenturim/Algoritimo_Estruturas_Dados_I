@@ -27,12 +27,12 @@ int main(){
     *vetor= rand() % 100+1;
     for(int i = 1; i < tamanho; i++){
         do{
-            vetor[i] = rand() % 100 + 1;
+        *(vetor+i) = rand() % 60 + 1;
         }while(verificar((vetor+i-1), i, *(vetor+i)) == 1);
     }
 
     for(int i = 0; i < tamanho; i++){
-        printf("%d ", vetor[i]);
+        printf("%d ", *(vetor+i));
     }
     free(vetor);
     return 0;

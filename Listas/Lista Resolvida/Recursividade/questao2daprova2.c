@@ -16,21 +16,21 @@ int contarC(char *str, char car) {
 int main() {
 char *str = (char *)malloc(MAX * sizeof(char));
 if (str == NULL) {
-    printf("Memory allocation failed\n");
+    printf("Erro alocar memoria \n");
     return 1;
 }
-printf("Enter a string: ");
+printf("Digite a string: ");
 fgets(str, MAX, stdin);
 str= (char *)realloc(str, (strlen(str) - 1 ) * sizeof(char));
 if (str == NULL) {
-    printf("Memory reallocation failed\n");
+    printf("Erro realocar memoria\n");
     free(str);
     return 1;
 }
 char car;
-printf("Enter a character to search: ");
+printf("Digite sua busca ");
 scanf("%c", &car);
-printf("The character '%c' appears %d times in the string.\n", car, contarC(str, car));
+printf("O caracter '%c' aparece %d vezes na string.\n", car, contarC(str, car));
 free(str);
 return 0;
 
