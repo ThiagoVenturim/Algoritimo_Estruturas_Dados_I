@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define MAX 2
+#define MAX 5
 
 typedef struct {
     int matricula;
