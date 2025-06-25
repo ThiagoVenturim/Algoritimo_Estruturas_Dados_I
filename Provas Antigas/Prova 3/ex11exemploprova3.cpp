@@ -86,5 +86,6 @@ int main(){
     }
 
     cout << "A distancia entre o ponto 1  e 2 e: " << p1[1].CalcularDistancia(p1[2]) <<endl;
+    delete[] p1;
 return 0;
 }
