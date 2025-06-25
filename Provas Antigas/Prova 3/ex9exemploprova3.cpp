@@ -72,8 +72,8 @@ int main() {
 
     cout << "\n--- Dados do Desenvolvedor ---\n";
     p1.Mostrar();
-3
-    cout << "\n--- Dados do Gerente ---\n";
+
+    cout << "\n--- Dados do Gerente ---\n" << endl;
     p2.Mostrar();
 
     return 0;

@@ -19,7 +19,7 @@ public:
 
     int getSegundo(){return seg;}
     int getMinuto(){return min;}
-    int getHora(){return hor;}
+    int getHora(){  return hor;}
 
     void DefinirHora(int h, int m , int s){
         hor=h;
@@ -52,7 +52,7 @@ int main(){
     Relogio sala;
     int h,  m,  s;
     int num=0;
-    cout << "------Bem vindo ao relogio------" << endl;
+    cout << "------Bem vindo ao relogio------"<<endl ;
     cout << "MENU: " << endl;
     cout << "1- Definir horario: " << endl; 
     cout << "2- Avancar horario em Segundos: " << endl;
