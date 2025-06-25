@@ -14,7 +14,7 @@ public:
         this->y=y;
     }
 
-    void setX(){this->x=x;}
+    void setX(float x){this->x=x;}
     void setY(float y){this->y=y;}
     float getX(){return x;}
     float getY(){return y;}
@@ -47,11 +47,44 @@ public:
         cout << "____Retangulo____" << endl;
         cout << "Area: " << CalcularArea() << endl;
         cout << "Perimetro: " << CalcularPerimetro() << endl;
-        cout << "Pocisao: " << x << "," << y << endl; 
+        cout << "Pocisao: " << x << " , " << y << endl; 
     }
 
 };
 
+void PreVetor(float &largura, float &altura, float &x, float &y ){
+    cout << "Digite a Largura: " << endl;
+    cin >> largura; 
+    cout << "Digite a Altura : " << endl;
+    cin >> altura;
+    cout << "Digite o centro (x, y): " << endl;
+    cin >> x >> y ;
+return;
+}
+
 int main(){
+    int tamanho;
+    float largura, altura,  x,  y;
+    cout << "Digite quantos Retangulos quer" << endl;
+    cin >> tamanho;
+    if(tamanho<2){
+        cout << "Numero Digitado Invalido"<< endl;
+        return 1;
+    } 
+    Retangulo *p1= new Retangulo[tamanho];
+    for(int i=0; i<tamanho; i++ ){
+        PreVetor( largura, altura,  x,  y);
+        p1[i].setLargura(largura);
+        p1[i].setAltura(altura);
+        p1[i].setX(x);
+        p1[i].setY(y);
+    }
+
+    for(int i=0; i<tamanho; i++ ){
+       
+        p1[i].Mostra();
+    }
+
+    cout << "A distancia entre o ponto 1  e 2 e: " << p1[1].CalcularDistancia(p1[2]) <<endl;
 return 0;
 }
