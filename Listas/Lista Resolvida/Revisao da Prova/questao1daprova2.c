@@ -8,7 +8,6 @@ if (vetor= &atual){
 } else{
     if(*vetor==atual){
         return 1 ; 
-
     } 
  return verificar(vetor+1, atual);
 }

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/rosel/OneDrive/Área de Trabalho/Projetos/Lista 4",
-      "program": "c:/Users/rosel/OneDrive/Área de Trabalho/Projetos/Lista 4/build/Debug/outDebug",
+      "cwd": "c:/Users/rosel/OneDrive/Área de Trabalho/Projetos/PUC/C/AEDS 1/Exercicios_C_AEDs/Provas Antigas/Prova 3",
+      "program": "c:/Users/rosel/OneDrive/Área de Trabalho/Projetos/PUC/C/AEDS 1/Exercicios_C_AEDs/Provas Antigas/Prova 3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
