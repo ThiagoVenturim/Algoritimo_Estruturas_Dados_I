@@ -7,7 +7,7 @@ Este repositório foi criado com o objetivo de apoiar alunos da disciplina **Alg
 
 ##  Estrutura do Repositório
 
-🔹 [`/Listas`](https://github.com/ThiagoVenturim/Exercicios_C_AEDs/tree/main/Listas)
+ [`/Listas`](https://github.com/ThiagoVenturim/Exercicios_C_AEDs/tree/main/Listas)
 Diretório principal com listas de exercícios propostos e resolvidos:
 
 *  [`Lista PDF`](https://github.com/ThiagoVenturim/Exercicios_C_AEDs/tree/main/Listas/Lista%20PDF) – Listas de exercícios em formato PDF
@@ -22,7 +22,7 @@ Arquivo com **provas anteriores da disciplina**, úteis para revisão, simulaç�
 
 ---
 
-## 🧠 Conteúdos abordados
+## Conteúdos abordados
 
 * Estruturas sequenciais, condicionais e de repetição
 * Vetores, matrizes, structs e ponteiros
@@ -32,7 +32,7 @@ Arquivo com **provas anteriores da disciplina**, úteis para revisão, simulaç�
 
 ---
 
-## 🎓 Público-alvo
+##  Público-alvo
 
 Estudantes iniciantes de **Ciência da Computação**, **Engenharia**, **Ciência de Dados** e áreas afins que estão cursando **AEDS I** ou desejam reforçar sua base de programação estruturada e orientada a objetos.
 
@@ -43,7 +43,3 @@ Estudantes iniciantes de **Ciência da Computação**, **Engenharia**, **Ciênci
 Contribuições são bem-vindas!
 Você pode colaborar com novos exercícios, sugestões, resoluções ou adicionar materiais úteis como resumos e simulados.
 Abra uma **issue** ou envie um **pull request**! 
-
----
-
-Se quiser, posso montar um índice navegável automático no início do README (com links âncora), ou até mesmo gerar uma imagem de capa com estilo acadêmico. Deseja?
