@@ -1,21 +1,49 @@
 
-#  Repositório Dedicado a Alunos de AEDS I
+#  Repositório de Exercícios — AEDS I (C e C++)
 
-Bem-vindo ao repositório oficial de **Algoritmos e Estruturas de Dados I (AEDS I)**!
-Este espaço foi criado especialmente para **alunos iniciantes** que desejam praticar, revisar e aprofundar seus conhecimentos em **lógica de programação, estruturas básicas e princípios de orientação a objetos**, utilizando as linguagens **C** e **C++**.
+Este repositório foi criado com o objetivo de apoiar alunos da disciplina **Algoritmos e Estruturas de Dados I (AEDS I)**, oferecendo um acervo de listas, resoluções, livros e **provas anteriores** para prática intensiva em **C e C++**, incluindo tópicos introdutórios de **Programação Orientada a Objetos (POO)**.
 
-##  O que você encontrará aqui:
+---
 
-*  Exercícios resolvidos de lógica e algoritmos em C
-*  Estruturas como vetores, matrizes, structs, listas simples e duplas
-*  Prática com recursão, ordenação, busca e ponteiros
-*  Introdução à **Programação Orientada a Objetos (POO)** com C++
-*  Comentários explicativos para facilitar o aprendizado
-*  Arquivos organizados por temas e dificuldade crescente
+##  Estrutura do Repositório
 
-##  Objetivo
+🔹 [`/Listas`](https://github.com/ThiagoVenturim/Exercicios_C_AEDs/tree/main/Listas)
+Diretório principal com listas de exercícios propostos e resolvidos:
 
-Ajudar estudantes a consolidar os fundamentos da programação e criar uma base sólida para disciplinas mais avançadas, como AEDS II e Estrutura de Dados com Abstração.
+*  [`Lista PDF`](https://github.com/ThiagoVenturim/Exercicios_C_AEDs/tree/main/Listas/Lista%20PDF) – Listas de exercícios em formato PDF
+*  [`Lista Resolvida`](https://github.com/ThiagoVenturim/Exercicios_C_AEDs/tree/main/Listas/Lista%20Resolvida) – Soluções em C e C++ com comentários explicativos
 
+  
+ [`/Livros`](https://github.com/ThiagoVenturim/Exercicios_C_AEDs/tree/main/Livros)
+LIvros e materiais complementares sobre lógica de programação, algoritmos e estrutura de dados.
 
+ [`/Provas Antigas`](https://github.com/ThiagoVenturim/Exercicios_C_AEDs/tree/main/Provas%20Antigas)
+Arquivo com **provas anteriores da disciplina**, úteis para revisão, simulação de avaliação e identificação dos principais temas cobrados.
 
+---
+
+## 🧠 Conteúdos abordados
+
+* Estruturas sequenciais, condicionais e de repetição
+* Vetores, matrizes, structs e ponteiros
+* Funções e modularização
+* Ordenação, busca e recursão
+* Introdução à **POO com C++**
+
+---
+
+## 🎓 Público-alvo
+
+Estudantes iniciantes de **Ciência da Computação**, **Engenharia**, **Ciência de Dados** e áreas afins que estão cursando **AEDS I** ou desejam reforçar sua base de programação estruturada e orientada a objetos.
+
+---
+
+##  Contribuições
+
+Contribuições são bem-vindas!
+Você pode colaborar com novos exercícios, sugestões, resoluções ou adicionar materiais úteis como resumos e simulados.
+Abra uma **issue** ou envie um **pull request**! 
+
+---
+
+Se quiser, posso montar um índice navegável automático no início do README (com links âncora), ou até mesmo gerar uma imagem de capa com estilo acadêmico. Deseja?
